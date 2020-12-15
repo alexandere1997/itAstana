@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="calc">
+    <div class="calc__container">
+      <div class="calc__box">
+        <div class="calc__head">
+          <div class="calc__сustomization">
+            <div class="calc__wrap">
+              <h3 class="calc__title">Основные настройки</h3>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input type="checkbox" class="calc__checkbox" id="ck1" value="60000" checked>
+                  <label class="calc__info" for="ck1"></label>
+                </div>
+                <p>Дизайн + Верстка главной страницы</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck2" value="10000" checked>
+                  <label class="calc__info" for="ck2"></label>
+                </div>
+                <p>Форма обратной связи</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck3" value="10000" checked>
+                  <label class="calc__info" for="ck3"></label>
+                </div>
+                <p>Техническая SEO-оптимизация</p>
+              </div>
+            </div>
+            <div class="calc__modification">
+              <h3 class="calc__title">Доработки дизайна</h3>
+              <div class="calc__mod calc__modification_range">
+                <input type="range" class="calc__range" value="1" min="1" max="100" step="1" data-value="10000">
+              </div>
+              <div class="calc__text">
+                <p class="calc__free">только три раза бесплатно поправки можно сделать в процессу дизайна</p>
+                <p class="calc__number_bold">1</p>
+              </div>
+            </div>
+            <div class="calc__wrap">
+              <h3 class="calc__title">Дополнительные функции</h3>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck4" value="10000">
+                  <label class="calc__info" for="ck4"></label>
+                </div>
+                <p>Онлайн оплата</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck5" value="10000">
+                  <label class="calc__info" for="ck5"></label>
+                </div>
+                <p>Мультиязычность</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck6" value="10000">
+                  <label class="calc__info" for="ck6"></label>
+                </div>
+                <p>Поиск</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck7" value="10000">
+                  <label class="calc__info" for="ck7"></label>
+                </div>
+                <p>Комментарии</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck8" value="10000">
+                  <label class="calc__info" for="ck8"></label>
+                </div>
+                <p>Счетчик посещаемости <br> Google Analytics</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck9" value="10000">
+                  <label class="calc__info" for="ck9"></label>
+                </div>
+                <p>Корзина</p>
+              </div>
+            </div>
+            <div class="calc__wrap calc__wrap_m">
+              <h3 class="calc__title">Внутренние страницы со списком</h3>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck100" value="10000">
+                  <label class="calc__info" for="ck100"></label>
+                </div>
+                <p class="calc__title_bold">Услуги</p>
+              </div>
+              <div class="calc__mobile_range">
+                <div class="calc__custom">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck101" value="10000">
+                    <label class="calc__info" for="ck101"></label>
+                  </div>
+                  <p>Индивидуальный дизаин</p>
+                </div>
+                <div class="calc__custom">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck102" value="10000">
+                    <label class="calc__info" for="ck102"></label>
+                  </div>
+                  <p>Слайдер</p>
+                </div>
+                <div class="calc__custom">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck103" value="10000">
+                    <label class="calc__info" for="ck103"></label>
+                  </div>
+                  <p>В виде лендинга</p>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__custom_range">
+                      <div class="calc__ceck_range calc__ceck_table">
+                        <input class="calc__checkbox" type="checkbox" id="ck104">
+                        <label class="calc__info" for="ck104"></label>
+                      </div>
+                      <p class="calc__text_range">Категории</p>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">уровень вложенности категории</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__custom_range">
+                      <div class="calc__ceck_range calc__ceck_table">
+                        <input class="calc__checkbox" type="checkbox" id="ck105">
+                        <label class="calc__info" for="ck105"></label>
+                      </div>
+                      <p class="calc__text_range">Фильтры</p>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Количество полей фильтра</p>
+                </div>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck106" value="10000">
+                  <label class="calc__info" for="ck106"></label>
+                </div>
+                <p>Продукция</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck107" value="10000">
+                  <label class="calc__info" for="ck107"></label>
+                </div>
+                <p>Товары</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck108" value="10000">
+                  <label class="calc__info" for="ck108"></label>
+                </div>
+                <p>Дополнительные услуги</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck109" value="10000">
+                  <label class="calc__info" for="ck109"></label>
+                </div>
+                <p>Новости</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck110" value="10000">
+                  <label class="calc__info" for="ck110"></label>
+                </div>
+                <p>Акции</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck111" value="10000">
+                  <label class="calc__info" for="ck111"></label>
+                </div>
+                <p>Статьи</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck112" value="10000">
+                  <label class="calc__info" for="ck112"></label>
+                </div>
+                <p>Команда</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck113" value="10000">
+                  <label class="calc__info" for="ck113"></label>
+                </div>
+                <p>Руководство</p>
+              </div>
+            </div>
+            <div class="calc__wrap calc__wrap_m">
+              <h3 class="calc__title">Отдельные внутренние страницы.</h3>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck114" value="10000">
+                  <label class="calc__info" for="ck114"></label>
+                </div>
+                <p class="calc__title_bold">Фильтры</p>
+              </div>
+              <div class="calc__mobile_check">
+                <div class="calc__custom">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck119" value="10000">
+                    <label class="calc__info" for="ck119"></label>
+                  </div>
+                  <p>Индивидуальный дизаин</p>
+                </div>
+                <div class="calc__custom">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck120" value="10000">
+                    <label class="calc__info" for="ck120"></label>
+                  </div>
+                  <p>В виде лендинга</p>
+                </div>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck115" value="10000">
+                  <label class="calc__info" for="ck115"></label>
+                </div>
+                <p>История компании</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck116" value="10000">
+                  <label class="calc__info" for="ck116"></label>
+                </div>
+                <p>Руководство</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck117" value="10000">
+                  <label class="calc__info" for="ck117"></label>
+                </div>
+                <p>Фотогалерея</p>
+              </div>
+              <div class="calc__custom">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck118" value="10000">
+                  <label class="calc__info" for="ck118"></label>
+                </div>
+                <p>Видеогалерея</p>
+              </div>
+            </div>
+          </div>
+          <div class="calc__table">
+            <div class="calc__top">
+              <div class="calc__items calc__one">
+                <h5>Разделы</h5>
+              </div>
+              <div class="calc__items calc__two">
+                <h5>Индив.<br>дизаин</h5>
+              </div>
+              <div class="calc__items calc__fri">
+                <h5>в виде <br> лендинга</h5>
+              </div>
+              <div class="calc__items calc__four">
+                <h5>Слайдер</h5>
+              </div>
+              <div class="calc__items calc__five">
+                <h5>Категории</h5>
+                <p>(уровень вложенности категории)</p>
+              </div>
+              <div class="calc__items calc__six">
+                <h5>Фильтр</h5>
+                <p>(количество полей Фильтра)</p>
+              </div>
+            </div>
+            <div class="calc__body">
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Услуги</h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck10" value="50000">
+                    <label class="calc__info" for="ck10"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck11" value="80000">
+                    <label class="calc__info" for="ck11"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck12" value="10000">
+                    <label class="calc__info" for="ck12"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck13">
+                      <label class="calc__info" for="ck13"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck90">
+                      <label class="calc__info" for="ck90"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Дополнительные <br> услуги
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck14" value="50000">
+                    <label class="calc__info" for="ck14"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck15" value="80000">
+                    <label class="calc__info" for="ck15"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck16" value="10000">
+                    <label class="calc__info" for="ck16"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck17">
+                      <label class="calc__info" for="ck17"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck18">
+                      <label class="calc__info" for="ck18"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Статьи</h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck19" value="50000">
+                    <label class="calc__info" for="ck19"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck20" value="80000">
+                    <label class="calc__info" for="ck20"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck21" value="10000">
+                    <label class="calc__info" for="ck21"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck22">
+                      <label class="calc__info" for="ck22"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck23">
+                      <label class="calc__info" for="ck23"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Продукция
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck24" value="50000">
+                    <label class="calc__info" for="ck24"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck25" value="80000">
+                    <label class="calc__info" for="ck25"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck26" value="10000">
+                    <label class="calc__info" for="ck26"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck27">
+                      <label class="calc__info" for="ck27"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck28">
+                      <label class="calc__info" for="ck28"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Новости
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck29" value="50000">
+                    <label class="calc__info" for="ck29"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck30" value="80000">
+                    <label class="calc__info" for="ck30"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck31" value="10000">
+                    <label class="calc__info" for="ck31"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck32">
+                      <label class="calc__info" for="ck32"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck33">
+                      <label class="calc__info" for="ck33"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Команда</h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck34" value="50000">
+                    <label class="calc__info" for="ck34"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck35" value="80000">
+                    <label class="calc__info" for="ck35"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck36" value="10000">
+                    <label class="calc__info" for="ck36"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck37">
+                      <label class="calc__info" for="ck37"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck38">
+                      <label class="calc__info" for="ck38"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Товары
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck39" value="50000">
+                    <label class="calc__info" for="ck39"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck40" value="80000">
+                    <label class="calc__info" for="ck40"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck41" value="10000">
+                    <label class="calc__info" for="ck41"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck42">
+                      <label class="calc__info" for="ck42"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck43">
+                      <label class="calc__info" for="ck43"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Акции
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck44" value="50000">
+                    <label class="calc__info" for="ck44"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck45" value="80000">
+                    <label class="calc__info" for="ck45"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck46" value="10000">
+                    <label class="calc__info" for="ck46"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck47">
+                      <label class="calc__info" for="ck47"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck48">
+                      <label class="calc__info" for="ck48"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Акции
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck49" value="50000">
+                    <label class="calc__info" for="ck49"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck50" value="80000">
+                    <label class="calc__info" for="ck50"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__four">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck51" value="10000">
+                    <label class="calc__info" for="ck51"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__five">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck52">
+                      <label class="calc__info" for="ck52"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="10" step="1" data-price="15000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+                <div class="calc__item calc__six">
+                  <div class="calc__wrapper">
+                    <div class="calc__ceck_range calc__ceck_table">
+                      <input class="calc__checkbox" type="checkbox" id="ck53">
+                      <label class="calc__info" for="ck53"></label>
+                    </div>
+                    <div class="calc__mod">
+                      <input type="range" class="calc__range calc__range_active calc__range__table" value="1" min="1" max="100" step="1" data-price="8000" disabled="disabled">
+                    </div>
+                    <p class="calc__number">1</p>
+                  </div>
+                  <p class="calc__subtitle">Уровень вложенности</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calc__result">
+            <div class="calc__list">
+              <h3>0 тг</h3>
+              <img src="img/Vector.png" alt="">
+            </div>
+            <div class="calc__estimate">
+              <p class="calc__names">Чек-лист</p>
+              <div class="calc__estimate_info">
+                <p>Сайт с индивидуальным дизайном</p>
+                <span>2000 тг</span>
+              </div>
+              <div class="calc__estimate_info">
+                <p>Сайт с индивидуальным дизайном</p>
+                <span>2000 тг</span>
+              </div>
+              <div class="calc__estimate_info">
+                <p>Сайт с индивидуальным дизайном</p>
+                <span>2000 тг</span>
+              </div>
+            </div>
+            <p class="calc__description">Описание</p>
+            <div class="calc__name">
+              <p class="calc__description">Сайт с индивидуальным дизайном</p>
+              <p class="calc__description">Сайт с индивидуальным дизайном</p>
+              <p class="calc__description">Сайт с индивидуальным дизайном</p>
+              <p class="calc__description">Сайт с индивидуальным дизайном</p>
+            </div>
+            <button class="calc__btn">Отправить заявку</button>
+          </div>
+        </div>
+        <div class="calc__foot">
+          <div class="calc__table calc__table_two">
+            <div class="calc__top">
+              <div class="calc__items calc__one">
+                <h5>Отдельные <br> внутренние страницы</h5>
+              </div>
+              <div class="calc__items calc__two">
+                <h5>Индив.<br>дизаин</h5>
+              </div>
+              <div class="calc__items calc__fri">
+                <h5>в виде <br> лендинга</h5>
+              </div>
+              <div class="calc__items calc__one">
+                <h5>Отдельные <br> внутренние страницы</h5>
+              </div>
+              <div class="calc__items calc__two">
+                <h5>Индив.<br>дизаин</h5>
+              </div>
+              <div class="calc__items calc__fri">
+                <h5>в виде <br> лендинга</h5>
+              </div>
+            </div>
+            <div class="calc__body">
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>О компании</h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck54" value="30000">
+                    <label class="calc__info" for="ck54"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck55" value="60000">
+                    <label class="calc__info" for="ck55"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__one">
+                  <h5>Сертификаты</h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck56" value="30000">
+                    <label class="calc__info" for="ck56"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck57" value="60000">
+                    <label class="calc__info" for="ck57"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>История компании
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck58" value="30000">
+                    <label class="calc__info" for="ck58"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck59" value="60000">
+                    <label class="calc__info" for="ck59"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__one">
+                  <h5>Партнеры
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck60" value="30000">
+                    <label class="calc__info" for="ck60"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck61" value="60000">
+                    <label class="calc__info" for="ck61"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Руководство
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck62" value="30000">
+                    <label class="calc__info" for="ck62"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck63" value="60000">
+                    <label class="calc__info" for="ck63"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__one">
+                  <h5>Руководство
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck64" value="30000">
+                    <label class="calc__info" for="ck64"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck65" value="60000">
+                    <label class="calc__info" for="ck65"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Фотогалерея
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck66" value="30000">
+                    <label class="calc__info" for="ck66"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck67" value="60000">
+                    <label class="calc__info" for="ck67"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__one">
+                  <h5>Фотогалерея
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck68" value="30000">
+                    <label class="calc__info" for="ck68"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck69" value="60000">
+                    <label class="calc__info" for="ck69"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="calc__inner">
+                <div class="calc__item calc__one">
+                  <h5>Видеогалерея
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck70" value="30000">
+                    <label class="calc__info" for="ck70"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck71" value="60000">
+                    <label class="calc__info" for="ck71"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__one">
+                  <h5>Видеогалерея
+                  </h5>
+                </div>
+                <div class="calc__item calc__two">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck72" value="30000">
+                    <label class="calc__info" for="ck72"></label>
+                  </div>
+                </div>
+                <div class="calc__item calc__fri">
+                  <div class="calc__ceck">
+                    <input class="calc__checkbox" type="checkbox" id="ck73" value="60000">
+                    <label class="calc__info" for="ck73"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calc__content">
+            <h3 class="calc__title">Контент</h3>
+            <div class="calc__information">
+              <div class="calc__check">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck74">
+                  <label class="calc__info" for="ck74"></label>
+                </div>
+                <h5>Информация от заказчика</h5>
+              </div>
+              <input type="range" class="calc__range calc__range_active calc__foot__table" value="1" min="1" max="100" step="1" disabled="disabled">
+              <div class="calc__numbers">
+                <p>Количество страниц</p>
+                <span>1</span>
+              </div>
+            </div>
+            <div class="calc__information">
+              <div class="calc__check">
+                <div class="calc__ceck">
+                  <input class="calc__checkbox" type="checkbox" id="ck75">
+                  <label class="calc__info" for="ck75"></label>
+                </div>
+                <h5>Информация от заказчика</h5>
+              </div>
+              <input type="range" class="calc__range calc__range_active calc__foot__table" value="1" min="1" max="100" step="1" disabled="disabled">
+              <div class="calc__numbers">
+                <p>Количество страниц</p>
+                <span>1</span>
+              </div>
+            </div>
+            <h3 class="calc__title">Домен и хостинг</h3>
+            <div class="calc__domain">
+              <div class="calc__faces">
+                <div class="calc__radio">
+                  <input class="calc__radiobox" name="rad" type="radio" checked id="r1" value="10000">
+                  <label class="calc__radioinfo" for="r1"></label>
+                </div>
+                <p>Для физ лиц</p>
+              </div>
+              <div class="calc__faces">
+                <div class="calc__radio">
+                  <input class="calc__radiobox" name="rad" type="radio" id="r2" value="20000">
+                  <label class="calc__radioinfo" for="r2"></label>
+                </div>
+                <p>Для юр лиц</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

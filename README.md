@@ -1,2 +1,3 @@
-# itAstana
-it
+npm install
+gulp
+
