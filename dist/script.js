@@ -344,12 +344,57 @@ let calc = () => {
   });
   countResult = countResult + Number(calc__radiobox[1].value);
   calc__result.innerHTML = `${countResult} тг`;
+
+  if (calc__radiobox[1].hasAttribute("checked")) {
+    let name = calc__radiobox[1].dataset.radio;
+    let newEl = document.createElement("div");
+    let id = calc__radiobox[1].getAttribute("id");
+    newEl.setAttribute(`data-id`, `${id}`);
+    newEl.classList.add("calc__estimate_info");
+    newEl.innerHTML = `
+        <p>${name}</p>
+        <span>${calc__radiobox[1].value} тг</span>`;
+    calc__name.appendChild(newEl);
+    calc__estimate.style.height = `${calc__estimate.clientHeight + 22}px`;
+    calc__result_box.style.height = `${calc__result_box.clientHeight + 22}px`;
+    prevstate = prevstate + 22;
+  }
+
   calc__radiobox[0].addEventListener("click", () => {
     calc__radiobox[0].setAttribute("checked", "checked");
     calc__radiobox[1].removeAttribute("checked");
     countResult = countResult + Number(calc__radiobox[0].value);
     countResult = countResult - Number(calc__radiobox[1].value);
     calc__result.innerHTML = `${countResult} тг`;
+
+    if (document.documentElement.clientWidth <= 991) {
+      return;
+    } else {
+      if (calc__radiobox[0].checked == true) {
+        let name = calc__radiobox[0].dataset.radio;
+        let newEl = document.createElement("div");
+        let id = calc__radiobox[0].getAttribute("id");
+        newEl.classList.add("calc__estimate_info");
+        newEl.setAttribute(`data-id`, `${id}`);
+        newEl.innerHTML = `
+                <p>${name}</p>
+                <span>${calc__radiobox[0].value} тг</span>`;
+        calc__name.appendChild(newEl);
+        prevstate = prevstate + 22;
+        let calc__estimate_info = document.querySelectorAll(".calc__estimate_info");
+        calc__estimate_info.forEach(count => {
+          if (count.hasAttribute("data-id")) {
+            let id = calc__radiobox[1].getAttribute("id");
+            let dataId = count.dataset.id;
+
+            if (dataId == id) {
+              count.parentNode.removeChild(count);
+              prevstate = prevstate - 22;
+            }
+          }
+        });
+      }
+    }
   });
   calc__radiobox[1].addEventListener("click", () => {
     calc__radiobox[1].setAttribute("checked", "checked");
@@ -357,6 +402,35 @@ let calc = () => {
     countResult = countResult + Number(calc__radiobox[1].value);
     countResult = countResult - Number(calc__radiobox[0].value);
     calc__result.innerHTML = `${countResult} тг`;
+
+    if (document.documentElement.clientWidth <= 991) {
+      return;
+    } else {
+      if (calc__radiobox[1].checked == true) {
+        let name = calc__radiobox[1].dataset.radio;
+        let newEl = document.createElement("div");
+        let id = calc__radiobox[1].getAttribute("id");
+        newEl.classList.add("calc__estimate_info");
+        newEl.setAttribute(`data-id`, `${id}`);
+        newEl.innerHTML = `
+                <p>${name}</p>
+                <span>${calc__radiobox[1].value} тг</span>`;
+        calc__name.appendChild(newEl);
+        prevstate = prevstate + 22;
+        let calc__estimate_info = document.querySelectorAll(".calc__estimate_info");
+        calc__estimate_info.forEach(count => {
+          if (count.hasAttribute("data-id")) {
+            let id = calc__radiobox[0].getAttribute("id");
+            let dataId = count.dataset.id;
+
+            if (dataId == id) {
+              count.parentNode.removeChild(count);
+              prevstate = prevstate - 22;
+            }
+          }
+        });
+      }
+    }
   });
 };
 
